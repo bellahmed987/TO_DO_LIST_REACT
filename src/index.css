@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2be8; /* Dark background */
+    color: #f0f0f0; /* Light text color for readability */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px
+}
+.container{
+    font-size: 20px;
+    padding: 5px;
+}
+
+input {
+    font-size: 25px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #555555; /* Darker border */
+    background-color: #444444; /* Darker input background */
+    color: #ffffff; /* White text for readability */
+}
+
+.adbtn {
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid #555555; /* Darker border */
+    background-color: #444444; /* Darker button background */
+    color: #00ccff; /* Light blue text */
+}
+
+h1 {
+    text-align: center;
+    color: #80d4ff; /* Softer blue-green for heading */
+}
+
+.adbtn:hover, input:hover, .clear:hover {
+    background-color: #666666; /* Slightly lighter shade on hover */
+}
+
+li {
+    box-shadow: 5px 5px 5px #333333; /* Darker shadow for more depth */
+    font-size: 40px;
+    color: #f0f0f0; /* Light text for list items */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.task {
+    margin-top: 20px;
+}
+
+.delbtn, .opbtn {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: #444444; /* Match button background with others */
+ /* Soft red for delete/operation buttons */
+    border: 2px solid #555555; /* Consistent border */
+}
+
+.clear {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
